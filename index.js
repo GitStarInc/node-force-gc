@@ -1,6 +1,6 @@
 'use strict';
 const fgc = require('bindings')('forcegc');
-exports = {
+module.exports = {
   full: fgc.full,
   minor: fgc.minor
 };
