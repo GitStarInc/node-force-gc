@@ -1,17 +1,17 @@
 {
   "name": "force-gc",
   "version": "0.0.1",
-  "description": "Forc garbage collection",
+  "description": "Force minor or full garbage collection",
   "author": "GitStar",
   "license": "MIT",
   "repository" : {
     "type": "git",
-    "url": "git@github.com:GitStarInc/expectro-worker.git"
+    "url": "git@github.com:GitStarInc/node-force-gc.git"
   },
   "bugs" : {
-    "url": "https://github.com/GitStarInc/force-gc/issues"
+    "url": "https://github.com/GitStarInc/node-force-gc/issues"
   },
-  "homepage" : "https://github.com/GitStarInc/force-gc",
+  "homepage" : "https://github.com/GitStarInc/node-force-gc",
   "keywords": [
     "gc"
   ],
