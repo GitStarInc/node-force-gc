@@ -5,13 +5,13 @@ using namespace node;
 
 NAN_METHOD(Full) {
   NanScope();
-  Isolate::GetCurrent()->RequestGarbageCollectionForTesting(Isolate::GarbageCollectionType::kFullGarbageCollection);
+  Isolate::GetCurrent()->RequestGarbageCollectionForTesting(Isolate::kFullGarbageCollection);
   NanReturnUndefined();
 }
 
 NAN_METHOD(Minor) {
   NanScope();
-  Isolate::GetCurrent()->RequestGarbageCollectionForTesting(Isolate::GarbageCollectionType::kMinorGarbageCollection);
+  Isolate::GetCurrent()->RequestGarbageCollectionForTesting(Isolate::kMinorGarbageCollection);
   NanReturnUndefined();
 }
 
